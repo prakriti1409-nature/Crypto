@@ -77,7 +77,6 @@ The app uses mock data from `src/data/sampleCryptos.js` for:
 
 ## 🧡 Thank You!
 
-Built with 💙 by \[Your Name]
 Feel free to ⭐️ this repo if you find it useful!
 
 
