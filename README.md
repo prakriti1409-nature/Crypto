@@ -1,88 +1,60 @@
 🚀 Crypto Tracker
-Real-time simulated cryptocurrency price tracker built with React and Redux Toolkit.
-Prices, market cap, volume, and 7-day charts update every few seconds to simulate live data!
+A real-time simulated cryptocurrency price tracker built with React and Redux Toolkit. Displays live-like updates for prices, market caps, volumes, and sparkline charts to give the feel of a real-world crypto dashboard.
 
-📸 Demo
-Picture and video in assets
-
+<div align="center"> <img src="src/assets/demo.png" alt="Demo Screenshot" width="600"/> <br /> <em>📸 Demo picture above | 🎥 Demo video in assets folder</em> </div>
 ✨ Features
-📈 Live price updates every 2 seconds
+⏱ Live Updates: Simulates real-time data with updates every 2 seconds
 
-🔥 Real-time percentage change for 1h, 24h, 7d
+📉 Price Change Tracking: Displays percentage changes for 1h, 24h, and 7d
 
-🧩 Responsive table layout
+📊 Responsive Table Layout: Mobile-friendly and adaptable design
 
-🎨 Simple clean UI
+⚡ Built with Redux Toolkit: Clean state management structure
 
-⚡ Built with Redux Toolkit state management
+🎨 Minimal & Clean UI: Simple layout using optional Tailwind CSS
+
+📈 Sparkline Charts: Small 7-day trend charts using Recharts (optional)
 
 🛠 Tech Stack
-React
+React.js
 
 Redux Toolkit
 
-Tailwind CSS (optional if you added styles)
+Tailwind CSS (optional)
 
-(Optional) Recharts, Lucide Icons
+Recharts (optional)
 
-🏗 Folder Structure
-
-src/
-├── app/           # Redux Store
-├── assets/        # Crypto logos and charts
-├── components/    # CryptoTable component
-├── data/          # sampleCryptos.js
-├── features/crypto/  # cryptoSlice.js
-├── App.js
-└── index.js
-🚀 Getting Started
-Clone the repo
-
-git clone https://github.com/your-username/crypto-tracker.git
-Install dependencies
+Lucide Icons (optional)
 
 
-npm install
-Start the development server
-
-
-npm run start
-
-
-
-
-http://localhost:3000
 📦 Sample Crypto Data
-The app uses a mock dataset (src/data/sampleCryptos.js) with 5 popular cryptocurrencies:
+The app uses mock data from src/data/sampleCryptos.js for:
 
-Bitcoin (BTC)
+🟡 Bitcoin (BTC)
 
-Ethereum (ETH)
+🔵 Ethereum (ETH)
 
-Tether (USDT)
+🟢 Tether (USDT)
 
-Ripple (XRP)
+🟣 Ripple (XRP)
 
-Binance Coin (BNB)
+🟠 Binance Coin (BNB)
 
-Solana (SOL)
+🔴 Solana (SOL)
 
-🛣 Future Improvements (optional)
-Add real API integration (like CoinGecko, CoinMarketCap)
-
-Animate price changes with smooth transitions
-
-Add sorting, searching, filtering
-
-📄 License
-This project is open source and free to use.
-
-🧡 Thank you!
-Built with 💙 by [Your Name]
-
-⚡ Quick Tip
-You can add a badge like this at the top if you want it to look pro:
+🚀 Getting Started
+Clone the repository
+git clone https://github.com/your-username/crypto-tracker.git
+cd crypto-tracker
+npm install
 
 
+🛣 Future Improvements
+🔌 Add real API integration (e.g., CoinGecko, CoinMarketCap)
 
+🌈 Animate price transitions for smooth visual updates
+
+🔍 Add table search, sort, and filter functionality
+
+📱 Enhance mobile layout and performance
 
