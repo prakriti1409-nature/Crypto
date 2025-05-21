@@ -1,7 +1,6 @@
 🚀 Crypto Tracker
 A real-time simulated cryptocurrency price tracker built with React and Redux Toolkit. Displays live-like updates for prices, market caps, volumes, and sparkline charts to give the feel of a real-world crypto dashboard.
 
-<div align="center"> <img src="src/assets/demo.png" alt="Demo Screenshot" width="600"/> <br /> <em>📸 Demo picture above | 🎥 Demo video in assets folder</em> </div>
 ✨ Features
 ⏱ Live Updates: Simulates real-time data with updates every 2 seconds
 
